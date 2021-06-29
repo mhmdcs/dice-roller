@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
             rollDice();
 
         }
-
+        //read about findviewbyid vs viewbinding, viewbinding apparently is better for performance
         diceImage = findViewById(R.id.dice_image)
 
     }
